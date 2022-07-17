@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 1px);
+    margin: 1.25rem;
+    text-align: left;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    padding: 1rem;
+    width: 18.75rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+}
+
+.container img {
+    border-radius: 1rem;
+}
+
+.img-card{
+    position: relative;
+}
+
+.img-card div{
+    position: absolute;
+    background-color: hsl(178, 100%, 50%, 50%);
+    top: 0.5rem;
+    height: 95%;
+    width: 100%;
+    opacity: 0;
+}
+
+.img-card div img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-card div:hover{
+    opacity: 1;
+    border-radius: 1em;
+}
+.card {
+    padding: 0.5rem 0;
+}
+
+.card h2 {
+    color: #fff;
+}
+
+.card h2:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    color: hsl(178, 100%, 50%);
+    margin-bottom: 0.5rem;
+}
+
+.style-1 {
+    color: rgb(147, 141, 141);
+    font-weight: 100;
+    display: inline;
+}
+
+.col-1 {
+    width: 50%;
+    float: left;
+    align-items: center;
+}
+
+.icons {
+    position: relative;
+    top: 2.5px;
+}
+
+.line {
+    clear: left;
+    border-style: solid none none none;
+    border-color: hsl(215, 32%, 27%);
+}
+
+.card-footer{
+    font-size:15px;
+}
+
+.avtar-img {
+    width: 10%;
+    display: inline;
+    position: relative;
+    top: 7px;
+    padding: 0 0.5rem 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
