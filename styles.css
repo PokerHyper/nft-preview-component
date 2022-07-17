@@ -11,6 +11,7 @@ img {
 }
 
 body {
+    font-family: "Outfit";
     background-color: hsl(217, 54%, 11%);
     font-size: 18px;
     display: flex;
